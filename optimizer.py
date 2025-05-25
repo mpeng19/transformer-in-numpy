@@ -5,7 +5,6 @@ NumPy implementation of AdamW.
 import numpy as np
 from typing import List, Tuple
 
-
 class AdamW:
     """Decoupled weight‑decay Adam with optional AMSGrad/maximize flags."""
     def __init__(

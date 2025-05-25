@@ -7,7 +7,7 @@ from typing import Dict, List
 import numpy as np
 
 from dataloader import FineWebDataLoader
-from langugage_model import DecoderOnlyTransformer
+from model.language_model import DecoderOnlyTransformer
 from backprop import backward_pass
 from optimizer import AdamW
 
